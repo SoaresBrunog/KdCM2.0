@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --cor00: #BE2222;
+    --cor01: #FFFFFF;
+    --cor02: #020523;
+    --cor03: #050949;
+    --cor04: #0F194C;
+
+    --fonte-padrao: Arial, Verdana, Helvetica. sans-serif;
+    --fonte-destaque: Controwell;
+}
+body {
+    background-color: var(--cor02);
+    font-family: var(--fonte-destaque);
+}
+
+header {
+    background-color: var(--cor00);
+    color: var(--cor01);
+    text-align: center;
+    min-height: 100px;
+    padding: 20px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: black;
+}
+
+main h1 {
+    color: var(--cor01);
+}
+
+main h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor01);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor00), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    color: var(--cor01);
+    margin: 15px 0px;
+    text-align: center;
+    text-indent:  30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
